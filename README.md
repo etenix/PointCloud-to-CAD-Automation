@@ -1,0 +1,2 @@
+# PointCloud-to-CAD-Automation
+3D点群データからRANSACアルゴリズムを用いて外壁面を自動抽出し、セマンティック情報を保持したままAutoCAD形式(DXF)へ変換する業務自動化パイプライン
