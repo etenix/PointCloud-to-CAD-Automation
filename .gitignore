@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+
+# --- 3D Data & Large Files (点群データ等はリポジトリに含めない) ---
+*.pcd
+*.las
+*.laz
+*.ply
+*.pts
+/data/*.pcd
+/data/*.dxf
+
+# --- CAD Temporary Files ---
+*.dwl
+*.dwl2
+*.bak
+*.log
+*.err
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs (VS Code, PyCharm) ---
+.vscode/
+.idea/
+
+# --- Data Science / Notebooks ---
+.ipynb_checkpoints
