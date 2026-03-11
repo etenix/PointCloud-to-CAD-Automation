@@ -1,0 +1,18 @@
+# --- 点群解析 & CAD自動化 ---
+open3d==0.17.0        # 3D点群の処理、RANSAC、KD-Tree
+numpy>=1.24.0         # 行列計算、空間座標処理
+scipy>=1.10.0         # 統計解析、空間構造の最適化
+ezdxf>=1.1.0          # AutoCAD (DXF/DWG) 形式の自動生成
+# pyautocad           # Windows環境でのAutoCAD直接制御 (必要に応じて有効化)
+
+# --- 衛星データ解析 & AI (広島大学プロジェクト用) ---
+torch>=2.0.0          # YOLOv5/深層学習モデルの実行
+torchvision           # 画像処理用ユーティリティ
+opencv-python         # 画像補正、歪み補正、前処理
+xarray>=2023.1.0      # 大規模多次元データ（衛星画像）のハンドリング
+dask        # 並列分散処理のパイプライン構築
+pandas                # 時系列データおよび解析結果の管理
+
+# --- GUI & その他 ---
+PySide6               # 業務自動化ツールのGUI構築 (Qt)
+matplotlib            # 解析結果の可視化、グラフ作成
